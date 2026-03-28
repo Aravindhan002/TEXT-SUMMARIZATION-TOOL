@@ -1,1 +1,28 @@
 # TEXT-SUMMARIZATION-TOOL
+There is an unbelievably huge amount of data. It is impossible for a user to get insights from such huge volumes of data. Furthermore, a large portion of this data is either redundant or doesn't contain much useful information. The most efficient way to get access to the most important parts of the data, without having to sift through redundant and insignificant data, is to summarize the data in a way that it contains non-redundant and useful information only. The data can be in any form such as audio, video, images, and text.
+
+It is text summarization using natural language processing. 
+______________________________________
+What is Natural Language Processing?
+
+Natural language processing is a sub-field of linguistics, computer science, and artificial intelligence concerned with the interactions between computers and human language, in particular how to program computers to process and analyze large amounts of natural language data
+______________________________________
+Natural Language Processing Tools:
+
+NLTK: It stands for Natural Language ToolKit and is an essential library supporting tasks such as classification, stemming, tagging, parsing, semantic reasoning, and tokenization in Python. It’s the primary tool for natural language processing and machine learning. It represents all data in the form of strings, which is fine for simple constructs but makes it hard to use some advanced functionality. Today it serves as an educational foundation for Python developers who are new to machine learning.
+
+TextBlob: It is helpful for developers who are starting out with NLP in Python and want to make the most of their first encounter with NLTK. It basically provides beginners with an easy interface to help them learn most basic NLP tasks like sentiment analysis, noun phrase extraction, text classification, part-of-speech tagging, and more. . TextBlob also includes functionality from the Pattern library.  It can be used for rapid prototyping of various NLP models and can easily grow into full-scale projects.
+
+gensim: It is a highly specialized Python library that largely deals with topic modeling tasks using algorithms like Latent Dirichlet Allocation (LDA). It is also excellent at statistical semantics and recognizing text similarities, indexing texts, and navigating different documents. genism has also been designed to extend with other vector space algorithms. Further, it is licensed under the OSI approved GNU LGPLv2.1 license. Also, it is free for both personal and commercial use.
+
+spaCy: It is a relatively young library was designed for production usage. It is more accessible than other Python NLP libraries like NLTK. It offers the fastest syntactic parser available on the market today. As the toolkit is written in Cython, it’s also really speedy and efficient. Due to C-like blazing fast performance, spaCy provides a compelling approach to NLP, superior to the rest of the competition. Additionally, it helps in integrating the other data science tools and frameworks.
+There are many cool  projects using pythons nltk library we can develop. This project is one part of this.
+______________________________________
+It’s good to understand Cosine similarity to make the best use of code you are going to see. Cosine similarity is a measure of similarity between two non-zero vectors of an inner product space that measures the cosine of the angle between them. Since we will be representing our sentences as the bunch of vectors, we can use it to find the similarity among sentences. Its measures cosine of the angle between vectors. Angle will be 0 if sentences are similar.
+______________________________________
+What You'll Need:
+1.Python
+2. Python code editor like Visual Studio Code(I am using this ) or jupyterlab will also work
+3. nltk library
+4. networkx library
+______________________________________
